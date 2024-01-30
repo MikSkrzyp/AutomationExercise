@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="editing pom.xml and downloading all necessary libraries from maven online repository">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/allure.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="adding two properties files: allure and configuration">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lo4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +40,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,7 +68,7 @@
       <updated>1706625078961</updated>
       <workItem from="1706625080317" duration="642000" />
       <workItem from="1706628274875" duration="1292000" />
-      <workItem from="1706641328411" duration="136000" />
+      <workItem from="1706641328411" duration="661000" />
     </task>
     <task id="LOCAL-00001" summary="adding Readme">
       <option name="closed" value="true" />
@@ -88,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706629542801</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding two properties files: allure and configuration">
+      <option name="closed" value="true" />
+      <created>1706641497725</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706641497725</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding Readme" />
     <MESSAGE value="editing pom.xml and downloading all necessary libraries from maven online repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing pom.xml and downloading all necessary libraries from maven online repository" />
+    <MESSAGE value="adding two properties files: allure and configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding two properties files: allure and configuration" />
   </component>
 </project>
