@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="adding Readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2bg7sl1utsvDb4u7vBOr1rq1hqq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -27,10 +27,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.AutomationExcercise [--show-version].executor": "Run",
+    "Maven.AutomationExcercise [versions:use-latest-versions].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Mikolaj_2/Desktop/Java/Selenium/seleniumintro",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -42,6 +45,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn --show-version" />
+      <command value="mvn versions:use-latest-versions " />
+    </option>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -57,8 +66,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706625078961</updated>
-      <workItem from="1706625080317" duration="458000" />
+      <workItem from="1706625080317" duration="642000" />
+      <workItem from="1706628274875" duration="1104000" />
     </task>
+    <task id="LOCAL-00001" summary="adding Readme">
+      <option name="closed" value="true" />
+      <created>1706625552101</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706625552101</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,5 +93,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding Readme" />
   </component>
 </project>
