@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="adding Readme">
+    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="editing pom.xml and downloading all necessary libraries from maven online repository">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Mikolaj_2/Desktop/Java/Selenium/seleniumintro",
+    "last_opened_file_path": "C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,7 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1706625078961</updated>
       <workItem from="1706625080317" duration="642000" />
-      <workItem from="1706628274875" duration="1104000" />
+      <workItem from="1706628274875" duration="1292000" />
+      <workItem from="1706641328411" duration="136000" />
     </task>
     <task id="LOCAL-00001" summary="adding Readme">
       <option name="closed" value="true" />
@@ -77,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706625552101</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="editing pom.xml and downloading all necessary libraries from maven online repository">
+      <option name="closed" value="true" />
+      <created>1706629542800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706629542801</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding Readme" />
+    <MESSAGE value="editing pom.xml and downloading all necessary libraries from maven online repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="editing pom.xml and downloading all necessary libraries from maven online repository" />
   </component>
 </project>
