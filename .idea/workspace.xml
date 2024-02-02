@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="adding driver manager and driver utils class">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/generic/assertions/AssertWebElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/navigation/ApplicationURLs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/waits/WaitForElement.java" afterDir="false" />
+    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="adding url from website handling class,assertions class, base testing class with before and after methods, class wil explicit waits">
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ScreenShotMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/listeners/AnnotationTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/listeners/RetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/listeners/TestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +81,7 @@
       <workItem from="1706625080317" duration="642000" />
       <workItem from="1706628274875" duration="1292000" />
       <workItem from="1706641328411" duration="1321000" />
-      <workItem from="1706881085569" duration="1339000" />
+      <workItem from="1706881085569" duration="1627000" />
     </task>
     <task id="LOCAL-00001" summary="adding Readme">
       <option name="closed" value="true" />
@@ -146,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706882161778</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding url from website handling class,assertions class, base testing class with before and after methods, class wil explicit waits">
+      <option name="closed" value="true" />
+      <created>1706882480690</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706882480690</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +181,7 @@
     <MESSAGE value="addig class which will handle browsers" />
     <MESSAGE value="adding listeners which will log when new action had been done to element" />
     <MESSAGE value="adding driver manager and driver utils class" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding driver manager and driver utils class" />
+    <MESSAGE value="adding url from website handling class,assertions class, base testing class with before and after methods, class wil explicit waits" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding url from website handling class,assertions class, base testing class with before and after methods, class wil explicit waits" />
   </component>
 </project>
