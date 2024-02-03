@@ -7,6 +7,13 @@
         <listener class-name="utils.listeners.AnnotationTransformer"/>
     </listeners>
 
+<test name="TestCase1">
+    <parameter name="browser" value="FIREFOX"/>
+    <classes>
+        <class name="tests.TestCase1"/>
+    </classes>
+</test>
+      
 
 
 </suite>
