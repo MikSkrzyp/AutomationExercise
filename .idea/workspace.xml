@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="adding url from website handling class,assertions class, base testing class with before and after methods, class wil explicit waits">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/all_test_suite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="adding test suite" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +75,7 @@
       <workItem from="1706628274875" duration="1292000" />
       <workItem from="1706641328411" duration="1321000" />
       <workItem from="1706881085569" duration="1627000" />
-      <workItem from="1706882990722" duration="52000" />
+      <workItem from="1706882990722" duration="116000" />
     </task>
     <task id="LOCAL-00001" summary="adding Readme">
       <option name="closed" value="true" />
@@ -152,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706882480690</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding test suite">
+      <option name="closed" value="true" />
+      <created>1706883099936</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706883099936</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +184,7 @@
     <MESSAGE value="adding listeners which will log when new action had been done to element" />
     <MESSAGE value="adding driver manager and driver utils class" />
     <MESSAGE value="adding url from website handling class,assertions class, base testing class with before and after methods, class wil explicit waits" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding url from website handling class,assertions class, base testing class with before and after methods, class wil explicit waits" />
+    <MESSAGE value="adding test suite" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding test suite" />
   </component>
 </project>
