@@ -54,6 +54,7 @@ public class BrowserFactory {
                     FirefoxOptions firefoxOptions = new FirefoxOptions();
                     desiredCapabilities.merge(firefoxOptions);
                     return getRemoteWebDriver(desiredCapabilities);
+
                 default:
                     throw new IllegalStateException(MESSAGE_UNKNOWN_BROWSER);
             }
@@ -69,6 +70,7 @@ public class BrowserFactory {
                 case FIREFOX:
                     System.setProperty("webdriver.gecko.driver", LocalWebDriverProperties.getFirefoxWebDriverLocation());
                     return new FirefoxDriver();
+
                 default:
                     throw new IllegalStateException(MESSAGE_UNKNOWN_BROWSER);
             }

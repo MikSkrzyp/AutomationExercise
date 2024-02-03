@@ -9,4 +9,6 @@ public class LocalWebDriverProperties {
     public static String getFirefoxWebDriverLocation() {
         return ConfigurationProperties.getProperties().getProperty("firefox.driver.location");
     }
+
+
 }

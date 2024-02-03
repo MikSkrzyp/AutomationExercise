@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="creating file with test cases">
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestCase1.java" afterDir="false" />
+    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="starting doing first testcase (1,2,3 points form it), created HomePage page object">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/test_suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test_suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/lo4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/configuration/LocalWebDriverProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configuration/LocalWebDriverProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/BrowserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/BrowserType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/test_suite.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/all_tests_suite.xml.executor": "Run",
     "TestNG.C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/test_suite.xml.executor": "Run",
     "TestNG.TestCase1.TestCase1Test.executor": "Run",
     "git-widget-placeholder": "master",
@@ -78,7 +82,17 @@
       <command value="mvn allure:report" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/test_suite.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/all_tests_suite.xml">
+    <configuration name="C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/all_tests_suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationExcercise" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/all_tests_suite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/test_suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationExcercise" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/test_suite.xml" />
@@ -109,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/all_tests_suite.xml" />
         <item itemvalue="TestNG.C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/test_suite.xml" />
         <item itemvalue="TestNG.TestCase1.TestCase1Test" />
       </list>
@@ -135,7 +150,8 @@
       <workItem from="1706881085569" duration="1627000" />
       <workItem from="1706882990722" duration="116000" />
       <workItem from="1706970453824" duration="1376000" />
-      <workItem from="1706971839818" duration="1745000" />
+      <workItem from="1706971839818" duration="2138000" />
+      <workItem from="1706974914434" duration="295000" />
     </task>
     <task id="LOCAL-00001" summary="adding Readme">
       <option name="closed" value="true" />
@@ -225,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706970707440</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="starting doing first testcase (1,2,3 points form it), created HomePage page object">
+      <option name="closed" value="true" />
+      <created>1706973933472</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706973933472</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +278,7 @@
     <MESSAGE value="adding url from website handling class,assertions class, base testing class with before and after methods, class wil explicit waits" />
     <MESSAGE value="adding test suite" />
     <MESSAGE value="creating file with test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating file with test cases" />
+    <MESSAGE value="starting doing first testcase (1,2,3 points form it), created HomePage page object" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting doing first testcase (1,2,3 points form it), created HomePage page object" />
   </component>
 </project>
