@@ -21,7 +21,9 @@ public class TestCase1  extends TestBase{
         homePage
                 .goToSignup_LoginPage()
                 .Verify_NewUserSignup_is_visible()
-                .Enter_name_and_email_address();
+                .Enter_name_and_email_address()
+                .Click_Signup_button()
+                .Verify_that_ENTER_ACCOUNT_INFORMATION_is_visible();
 
 
     }

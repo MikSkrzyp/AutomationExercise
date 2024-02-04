@@ -7,7 +7,7 @@ import waits.WaitForElement;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.testng.AssertJUnit.assertTrue;
-
+import  page.objects.SignupPage;
 public class Singup_LoginPage extends BasePage {
 
 
@@ -19,6 +19,9 @@ public class Singup_LoginPage extends BasePage {
 
     @FindBy(xpath = "//*[@id=\"form\"]/div/div/div[3]/div/form/input[3]")
     private WebElement email;
+
+    @FindBy(xpath = "//*[@id=\"form\"]/div/div/div[3]/div/form/button")
+    private WebElement signup_button;
 
     @Step("Verify 'New User Signup!' is visible")
     public Singup_LoginPage Verify_NewUserSignup_is_visible(){
@@ -36,4 +39,14 @@ public class Singup_LoginPage extends BasePage {
         email.sendKeys("lol@lol.com");
         return this;
     }
+
+
+    @Step("Click 'Signup' button")
+    public SignupPage  Click_Signup_button(){
+        log().info("Click 'Signup' button");
+        signup_button.click();
+
+        return  new SignupPage();
+    }
+
 }

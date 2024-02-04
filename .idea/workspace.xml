@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="deletin unecessary folder with generic assertions and modifing assertion in test case 1 (assertion that assert that home page is visible)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/Singup_LoginPage.java" afterDir="false" />
+    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="doing points 4,5,6 from Test Case 1(&#10;4. Click on 'Signup / Login' button&#10;5. Verify 'New User Signup!' is visible&#10;6. Enter name and email address&#10;)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/SignupPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/Singup_LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/Singup_LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCase1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestCase1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/all_tests_suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/all_tests_suite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
     "TestNG.TestCase1.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Mikolaj_2/Desktop/Java/Selenium/seleniumintro",
+    "last_opened_file_path": "C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -139,8 +138,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestCase1" />
-        <item itemvalue="TestNG.TestCase1.TestCase1Test" />
         <item itemvalue="TestNG.C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/all_tests_suite.xml" />
+        <item itemvalue="TestNG.TestCase1.TestCase1Test" />
         <item itemvalue="TestNG.C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/test_suite.xml" />
       </list>
     </recent_temporary>
@@ -170,7 +169,8 @@
       <workItem from="1706974914434" duration="338000" />
       <workItem from="1706975267213" duration="8000" />
       <workItem from="1706975344755" duration="60000" />
-      <workItem from="1707060353413" duration="2601000" />
+      <workItem from="1707060353413" duration="2664000" />
+      <workItem from="1707075568035" duration="466000" />
     </task>
     <task id="LOCAL-00001" summary="adding Readme">
       <option name="closed" value="true" />
@@ -284,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707061094558</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="doing points 4,5,6 from Test Case 1(&#10;4. Click on 'Signup / Login' button&#10;5. Verify 'New User Signup!' is visible&#10;6. Enter name and email address&#10;)">
+      <option name="closed" value="true" />
+      <created>1707063018403</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707063018403</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +324,7 @@
     <MESSAGE value="starting doing first testcase (1,2,3 points form it), created HomePage page object" />
     <MESSAGE value="fixing bug which caused that logs was not showing" />
     <MESSAGE value="deletin unecessary folder with generic assertions and modifing assertion in test case 1 (assertion that assert that home page is visible)" />
-    <option name="LAST_COMMIT_MESSAGE" value="deletin unecessary folder with generic assertions and modifing assertion in test case 1 (assertion that assert that home page is visible)" />
+    <MESSAGE value="doing points 4,5,6 from Test Case 1(&#10;4. Click on 'Signup / Login' button&#10;5. Verify 'New User Signup!' is visible&#10;6. Enter name and email address&#10;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="doing points 4,5,6 from Test Case 1(&#10;4. Click on 'Signup / Login' button&#10;5. Verify 'New User Signup!' is visible&#10;6. Enter name and email address&#10;)" />
   </component>
 </project>
