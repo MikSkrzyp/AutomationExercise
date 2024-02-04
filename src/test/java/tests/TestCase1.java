@@ -23,7 +23,10 @@ public class TestCase1  extends TestBase{
                 .Verify_NewUserSignup_is_visible()
                 .Enter_name_and_email_address()
                 .Click_Signup_button()
-                .Verify_that_ENTER_ACCOUNT_INFORMATION_is_visible();
+                .Verify_that_ENTER_ACCOUNT_INFORMATION_is_visible()
+                .Fill_details_Title_Name_Email_Password_Dateofbirth()
+                .Select_checkbox_Sign_up_for_our_newsletter()
+                .Select_checkbox_Receive_special_offers_from_our_partners();
 
 
     }

@@ -23,6 +23,8 @@ public class Singup_LoginPage extends BasePage {
     @FindBy(xpath = "//*[@id=\"form\"]/div/div/div[3]/div/form/button")
     private WebElement signup_button;
 
+
+
     @Step("Verify 'New User Signup!' is visible")
     public Singup_LoginPage Verify_NewUserSignup_is_visible(){
         log().info("Verify 'New User Signup!' is visible");
@@ -48,5 +50,7 @@ public class Singup_LoginPage extends BasePage {
 
         return  new SignupPage();
     }
+
+
 
 }
