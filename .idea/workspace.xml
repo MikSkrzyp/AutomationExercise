@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="starting doing first testcase (1,2,3 points form it), created HomePage page object">
+    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="fixing bug which caused that logs was not showing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lo4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/configuration/LocalWebDriverProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configuration/LocalWebDriverProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/driver/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/BrowserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/driver/BrowserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/BrowserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/test_suite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/generic/assertions/AssertWebElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCase1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestCase1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/all_tests_suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/all_tests_suite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +52,7 @@
     "TestNG.C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/all_tests_suite.xml.executor": "Run",
     "TestNG.C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/test_suite.xml.executor": "Run",
     "TestNG.TestCase1.TestCase1Test.executor": "Run",
+    "TestNG.TestCase1.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise",
@@ -78,11 +76,11 @@
       <command value="mvn clean" />
       <command value="mvn cleant test" />
       <command value="mvn test" />
-      <command value="mvn clean test" />
       <command value="mvn allure:report" />
+      <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/all_tests_suite.xml">
+  <component name="RunManager" selected="TestNG.TestCase1">
     <configuration name="C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/all_tests_suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationExcercise" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/all_tests_suite.xml" />
@@ -97,6 +95,23 @@
       <module name="AutomationExcercise" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/test_suite.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationExcercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestCase1" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -123,9 +138,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestCase1" />
+        <item itemvalue="TestNG.TestCase1.TestCase1Test" />
         <item itemvalue="TestNG.C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/all_tests_suite.xml" />
         <item itemvalue="TestNG.C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise/src/test/resources/test_suite.xml" />
-        <item itemvalue="TestNG.TestCase1.TestCase1Test" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +167,10 @@
       <workItem from="1706882990722" duration="116000" />
       <workItem from="1706970453824" duration="1376000" />
       <workItem from="1706971839818" duration="2138000" />
-      <workItem from="1706974914434" duration="295000" />
+      <workItem from="1706974914434" duration="338000" />
+      <workItem from="1706975267213" duration="8000" />
+      <workItem from="1706975344755" duration="60000" />
+      <workItem from="1707060353413" duration="735000" />
     </task>
     <task id="LOCAL-00001" summary="adding Readme">
       <option name="closed" value="true" />
@@ -249,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706973933472</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fixing bug which caused that logs was not showing">
+      <option name="closed" value="true" />
+      <created>1706975243997</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706975243998</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +306,7 @@
     <MESSAGE value="adding test suite" />
     <MESSAGE value="creating file with test cases" />
     <MESSAGE value="starting doing first testcase (1,2,3 points form it), created HomePage page object" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting doing first testcase (1,2,3 points form it), created HomePage page object" />
+    <MESSAGE value="fixing bug which caused that logs was not showing" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing bug which caused that logs was not showing" />
   </component>
 </project>

@@ -17,7 +17,7 @@ public class TestCase1  extends TestBase{
         DriverUtils.navigateToPage(APPLICATION_URL);
 
         HomePage homePage = new HomePage();
-        homePage.assertThatWelcomeTextIsDisplayed("FEATURES ITEMS");
+        homePage.assertThatWelcomeTextIsDisplayed();
 
     }
 }
