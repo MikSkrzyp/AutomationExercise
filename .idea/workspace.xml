@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="fixing bug which caused that logs was not showing">
+    <list default="true" id="2e17eb93-5c6e-4621-857d-5e3be5543318" name="Changes" comment="deletin unecessary folder with generic assertions and modifing assertion in test case 1 (assertion that assert that home page is visible)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/Singup_LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/generic/assertions/AssertWebElement.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCase1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestCase1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/all_tests_suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/all_tests_suite.xml" afterDir="false" />
@@ -55,7 +55,7 @@
     "TestNG.TestCase1.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Mikolaj_2/Desktop/Java/Selenium/AutomationExcercise",
+    "last_opened_file_path": "C:/Users/Mikolaj_2/Desktop/Java/Selenium/seleniumintro",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -170,7 +170,7 @@
       <workItem from="1706974914434" duration="338000" />
       <workItem from="1706975267213" duration="8000" />
       <workItem from="1706975344755" duration="60000" />
-      <workItem from="1707060353413" duration="735000" />
+      <workItem from="1707060353413" duration="2601000" />
     </task>
     <task id="LOCAL-00001" summary="adding Readme">
       <option name="closed" value="true" />
@@ -276,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706975243998</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="deletin unecessary folder with generic assertions and modifing assertion in test case 1 (assertion that assert that home page is visible)">
+      <option name="closed" value="true" />
+      <created>1707061094558</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707061094558</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +315,7 @@
     <MESSAGE value="creating file with test cases" />
     <MESSAGE value="starting doing first testcase (1,2,3 points form it), created HomePage page object" />
     <MESSAGE value="fixing bug which caused that logs was not showing" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing bug which caused that logs was not showing" />
+    <MESSAGE value="deletin unecessary folder with generic assertions and modifing assertion in test case 1 (assertion that assert that home page is visible)" />
+    <option name="LAST_COMMIT_MESSAGE" value="deletin unecessary folder with generic assertions and modifing assertion in test case 1 (assertion that assert that home page is visible)" />
   </component>
 </project>

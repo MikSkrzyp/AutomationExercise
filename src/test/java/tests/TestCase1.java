@@ -18,6 +18,11 @@ public class TestCase1  extends TestBase{
 
         HomePage homePage = new HomePage();
         homePage.assertThatWelcomeTextIsDisplayed();
+        homePage
+                .goToSignup_LoginPage()
+                .Verify_NewUserSignup_is_visible()
+                .Enter_name_and_email_address();
+
 
     }
 }
