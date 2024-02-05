@@ -130,14 +130,20 @@ public class SignupPage extends BasePage{
     @Step("Click 'Create Account button'")
     public AccountCreatedPage Click_Creat_Account_button(){
         log().info("Click 'Create Account button'");
+
+        new Actions(DriverManager.getWebDriver()).sendKeys(Keys.PAGE_DOWN).perform();
+
+
         WaitForElement.waitUntilElementIsVisible(createAccount_button);
+
+
 
         Actions actions = new Actions(DriverManager.getWebDriver());
         actions.moveToElement(createAccount_button);
 
-        new Actions(DriverManager.getWebDriver()).sendKeys(Keys.PAGE_DOWN).perform();
 
         createAccount_button.click();
         return new AccountCreatedPage();
     }
+
 }
