@@ -82,7 +82,7 @@ public class SignupPage extends BasePage{
     public SignupPage Fill_details_Title_Name_Email_Password_Dateofbirth(){
         log().info("Fill details: Title, Name, Email, Password, Date of birth");
         title.click();
-        password.sendKeys("lol");
+        password.sendKeys("xyz");
 
         Select dateOfBirth1Select = new Select(dateOfBirth1);
         dateOfBirth1Select.selectByIndex(10);

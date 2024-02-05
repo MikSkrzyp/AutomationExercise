@@ -1,6 +1,8 @@
 package page.objects;
 
+import driver.manager.DriverUtils;
 import io.qameta.allure.Step;
+import navigation.ApplicationURLs;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import waits.WaitForElement;
@@ -42,6 +44,7 @@ public class HomePage extends  BasePage {
     @Step("Verify that 'Logged in as username' is visible\n")
     public HomePage Verify_that_Logged_in_as_username_is_visible(){
         log().info("Verify that 'Logged in as username' is visible");
+        DriverUtils.navigateToPage(ApplicationURLs.APPLICATION_URL);
         WaitForElement.waitUntilElementIsVisible(logged_as);
         assertTrue(logged_as.isDisplayed());
         return this;

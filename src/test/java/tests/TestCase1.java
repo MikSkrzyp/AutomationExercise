@@ -33,7 +33,7 @@ public class TestCase1  extends TestBase{
                 .Click_Continue_button()
                 .Verify_that_Logged_in_as_username_is_visible()
                 .Click_DeleteAccount_button()
-                .Verify_that_ACCOUNT_CREATED_is_visible_and_click_continue();
+                .Verify_that_ACCOUNT_DELETED_is_visible_and_click_continue();
 
 
 

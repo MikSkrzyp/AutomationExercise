@@ -18,7 +18,7 @@ public class DeleteAccountPage extends BasePage{
 
 
     @Step("Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button")
-    public DeleteAccountPage Verify_that_ACCOUNT_CREATED_is_visible_and_click_continue(){
+    public DeleteAccountPage Verify_that_ACCOUNT_DELETED_is_visible_and_click_continue(){
         log().info("Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button");
         WaitForElement.waitUntilElementIsVisible(account_deleted);
         assertTrue(account_deleted.isDisplayed());
