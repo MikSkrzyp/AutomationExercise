@@ -37,8 +37,8 @@ public class Singup_LoginPage extends BasePage {
     @Step(" Enter name and email address")
     public Singup_LoginPage Enter_name_and_email_address(){
         log().info(" Enter name and email address");
-        name.sendKeys("xyz5");
-        email.sendKeys("xyz5@xyz.xyz");
+        name.sendKeys("xyzz2");
+        email.sendKeys("xyzz2@xyz.xyz");
         return this;
     }
 
