@@ -1,6 +1,7 @@
 package page.objects;
 
 import driver.manager.DriverManager;
+import driver.manager.DriverUtils;
 import io.qameta.allure.Step;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -67,8 +68,8 @@ public class SignupPage extends BasePage{
 
     @FindBy(css = "#form > div > div > div > div > form > button")
     private WebElement createAccount_button;
-
-
+    @FindBy(xpath = "/ins/span/svg/path")
+    private WebElement ad;
 
     @Step("Verify that 'ENTER ACCOUNT INFORMATION' is visible")
     public SignupPage Verify_that_ENTER_ACCOUNT_INFORMATION_is_visible(){
@@ -129,10 +130,9 @@ public class SignupPage extends BasePage{
     @Step("Click 'Create Account button'")
     public AccountCreatedPage Click_Creat_Account_button(){
         log().info("Click 'Create Account button'");
-
-        new Actions(DriverManager.getWebDriver()).sendKeys(Keys.PAGE_DOWN).perform();
-
         WaitForElement.waitUntilElementIsVisible(createAccount_button);
+        Actions actions = new Actions(DriverManager.getWebDriver());
+        actions.moveToElement(createAccount_button);
         createAccount_button.click();
         return new AccountCreatedPage();
     }

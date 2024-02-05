@@ -1,6 +1,8 @@
 package driver.manager;
 
 import io.qameta.allure.Step;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
 
 public class DriverUtils {
 
