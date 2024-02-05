@@ -29,7 +29,11 @@ public class TestCase1  extends TestBase{
                 .Select_checkbox_Receive_special_offers_from_our_partners()
                 .Fill_details_First_name_Last_name_Company_Address_Address2_Country_State_City_Zipcode_Mobile_Number()
                 .Click_Creat_Account_button()
-                .Verify_that_ACCOUNT_CREATED_is_visible();
+                .Verify_that_ACCOUNT_CREATED_is_visible()
+                .Click_Continue_button()
+                .Verify_that_Logged_in_as_username_is_visible()
+                .Click_DeleteAccount_button()
+                .Verify_that_ACCOUNT_CREATED_is_visible_and_click_continue();
 
 
 

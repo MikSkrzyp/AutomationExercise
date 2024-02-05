@@ -15,6 +15,10 @@ public class AccountCreatedPage extends BasePage{
     private WebElement accountCreated;
 
 
+    @FindBy(xpath = "//*[@id=\"form\"]/div/div/div/div/a")
+    private WebElement continue_button;
+
+
     @Step("Verify that 'ACCOUNT CREATED!' is visible")
     public AccountCreatedPage Verify_that_ACCOUNT_CREATED_is_visible(){
         log().info("Verify that 'ACCOUNT CREATED!' is visible");
@@ -23,6 +27,13 @@ public class AccountCreatedPage extends BasePage{
 
 
         return this;
+    }
+
+    @Step("Click 'Continue' button")
+    public HomePage Click_Continue_button(){
+        log().info("Click 'Continue' button");
+        continue_button.click();
+        return new HomePage();
     }
 
 }
