@@ -30,6 +30,7 @@ public class TestBase {
         DriverManager.getWebDriver();
         DriverUtils.setInitialConfiguration();
         DriverUtils.navigateToPage(APPLICATION_URL);
+
     }
 
     @Step("Disposing browser")
