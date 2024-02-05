@@ -26,7 +26,11 @@ public class TestCase1  extends TestBase{
                 .Verify_that_ENTER_ACCOUNT_INFORMATION_is_visible()
                 .Fill_details_Title_Name_Email_Password_Dateofbirth()
                 .Select_checkbox_Sign_up_for_our_newsletter()
-                .Select_checkbox_Receive_special_offers_from_our_partners();
+                .Select_checkbox_Receive_special_offers_from_our_partners()
+                .Fill_details_First_name_Last_name_Company_Address_Address2_Country_State_City_Zipcode_Mobile_Number()
+                .Click_Creat_Account_button()
+                .Verify_that_ACCOUNT_CREATED_is_visible();
+
 
 
     }

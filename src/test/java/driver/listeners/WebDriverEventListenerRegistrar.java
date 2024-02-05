@@ -9,10 +9,8 @@ public class WebDriverEventListenerRegistrar {
 
         DriverEventListener driverEventListener = new DriverEventListener();
 
-        // Utworzenie obiektu EventFiringDecorator, który to w konstruktorze przymuje stworzoną przez nas klasę DriverEventListener
         EventFiringDecorator eventFiringDecorator = new EventFiringDecorator(driverEventListener);
 
-        // W ramach metody decorate "dekorujemy" stworzony poprzednio przez WebDrivera
         return eventFiringDecorator.decorate(driver);
     }
 

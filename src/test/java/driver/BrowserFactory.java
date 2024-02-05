@@ -19,38 +19,29 @@ public class BrowserFactory {
 
     private static final String MESSAGE_UNKNOWN_BROWSER = "Unknown browser type! Please check your configuration";
 
-    //Pole określające typ przeglądarki
     private BrowserType browserType;
 
-    //Pole określające czy uruchomienie jest zdalne czy lokalne
     private boolean isRemoteRun;
 
-    //Konstruktor dla klasy, który ustawia wartości pól browserType or isRemoteRun
     public BrowserFactory(BrowserType browserType, boolean isRemoteRun) {
         this.browserType = browserType;
         this.isRemoteRun = isRemoteRun;
     }
 
-    //Metoda dostarcza obiekt WebDrivera
     public WebDriver getBrowser() {
 
-        //Sprawdzamy czy uruchomienie jest zdalne, jeśli tak to kod wejdzie do warunku
         if (isRemoteRun) {
 
-            //Tworzymy obiekt desiredCapabilities, który jest wymagany do wyboru przeglądarki
             DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 
-            //Wybór przeglądarki w zależności od wartości pola browserType
             switch (browserType) {
                 case CHROME:
 
-                    //Do wyboru przeglądarki Chrome używamy klasy ChromeOptions
                     ChromeOptions chromeOptions = new ChromeOptions();
                     desiredCapabilities.merge(chromeOptions);
                     return getRemoteWebDriver(desiredCapabilities);
                 case FIREFOX:
 
-                    //Do wyboru przeglądarki FireFox używamy klasy FireFoxOptions
                     FirefoxOptions firefoxOptions = new FirefoxOptions();
                     desiredCapabilities.merge(firefoxOptions);
                     return getRemoteWebDriver(desiredCapabilities);
@@ -59,10 +50,8 @@ public class BrowserFactory {
                     throw new IllegalStateException(MESSAGE_UNKNOWN_BROWSER);
             }
 
-            //Jeśli uruchomienie nie jest zdalne, kod wchodzi do else. Jest to uruchomienie lokalne
         } else {
 
-            //Wybór przeglądarki w zależności od wartości pola browserType. Analogicznie jak wyżej
             switch (browserType) {
                 case CHROME:
                     System.setProperty("webdriver.chrome.driver", LocalWebDriverProperties.getChromeWebDriverLocation());
@@ -78,7 +67,6 @@ public class BrowserFactory {
         }
     }
 
-    //Metoda zwraca nam obiekt RemoteWebDrivera na podstawie obiektu desiredCapabilities
     private WebDriver getRemoteWebDriver(DesiredCapabilities desiredCapabilities) {
         RemoteWebDriver remoteWebDriver = null;
 

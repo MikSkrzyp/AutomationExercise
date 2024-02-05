@@ -10,7 +10,7 @@ import java.time.Duration;
 public class WaitForElement {
 
     private static WebDriverWait getWebDriverWait() {
-        return new WebDriverWait(DriverManager.getWebDriver(), Duration.ofSeconds(10));
+        return new WebDriverWait(DriverManager.getWebDriver(), Duration.ofSeconds(30));
     }
 
     public static void waitUntilElementIsVisible(WebElement element) {
