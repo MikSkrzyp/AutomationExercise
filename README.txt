@@ -1,1 +1,1 @@
-This Project is about doing Tests on website: https://automationexercise.com/
+This Project is about practising selenium on website: https://automationexercise.com/
